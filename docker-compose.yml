@@ -21,3 +21,14 @@ services :
       python /usr/src/workspace/intuitiveweb-api/scripts/transform_json.py &&
       python ./src/main.py
       "
+
+  intuitiveweb-ui :
+    build:
+      context: ./intuitiveweb-ui
+      dockerfile: Dockerfile.dev
+    container_name: intuitiveweb-ui
+    restart: always
+    volumes:
+      - ./intuitiveweb-ui/:/usr/src/workspace/intuitiveweb-ui
+    ports:
+      - 5172:5172

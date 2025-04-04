@@ -1,5 +1,50 @@
 [
     {
+        "ans_registration_code": "419761",
+        "cnpj": "19541931000125",
+        "socialname": "18 DE JULHO ADMINISTRADORA DE BENEFÍCIOS LTDA",
+        "fantasyname": "",
+        "modality": "Administradora de Benefícios",
+        "area_code": "32",
+        "phone": "34624649",
+        "fax": "",
+        "email": "contabilidade@cbnassessoria.com.br",
+        "representative": "LUIZ HENRIQUE MARENDINO GONÇALVES",
+        "representative_position": "SÓCIO ADMINISTRADOR",
+        "commercialization_region": "6",
+        "ans_registration_date": "2015-05-19"
+    },
+    {
+        "ans_registration_code": "421545",
+        "cnpj": "22869997000153",
+        "socialname": "2B ODONTOLOGIA OPERADORA DE PLANOS ODONTOLÓGICOS LTDA",
+        "fantasyname": "",
+        "modality": "Odontologia de Grupo",
+        "area_code": "11",
+        "phone": "34415852",
+        "fax": "",
+        "email": "labmarisol@gmail.com",
+        "representative": "MARISOL BECHELLI",
+        "representative_position": "SÓCIO ADMINISTRADORA",
+        "commercialization_region": "4",
+        "ans_registration_date": "2019-06-13"
+    },
+    {
+        "ans_registration_code": "421421",
+        "cnpj": "27452545000195",
+        "socialname": "2CARE OPERADORA DE SAÚDE LTDA.",
+        "fantasyname": "",
+        "modality": "Medicina de Grupo",
+        "area_code": "19",
+        "phone": "37901224",
+        "fax": "",
+        "email": "ans.plano@hospitalcare.com.br",
+        "representative": "RODRIGO PINHO RIBEIRO",
+        "representative_position": "REPRESENTANTE",
+        "commercialization_region": "5",
+        "ans_registration_date": "2018-10-09"
+    },
+    {
         "ans_registration_code": "422908",
         "cnpj": "41788751000100",
         "socialname": "3S ADMINISTRADORA DE BENEFICIOS LTDA",
@@ -43,6 +88,21 @@
         "representative_position": "Diretor Presidente",
         "commercialization_region": "4",
         "ans_registration_date": "1998-12-28"
+    },
+    {
+        "ans_registration_code": "419621",
+        "cnpj": "17687511000126",
+        "socialname": "ABPLUS ADMINISTRADORA DE BENEFÍCIOS LTDA.",
+        "fantasyname": "",
+        "modality": "Administradora de Benefícios",
+        "area_code": "",
+        "phone": "",
+        "fax": "",
+        "email": "contato@abplus.com.br",
+        "representative": "ROBERTO CARLOS MACHADO RODRIGUES",
+        "representative_position": "ADMINISTRADOR",
+        "commercialization_region": "6",
+        "ans_registration_date": "2014-11-13"
     },
     {
         "ans_registration_code": "424242",

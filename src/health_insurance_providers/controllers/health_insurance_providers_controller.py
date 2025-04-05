@@ -5,9 +5,22 @@ health_insurance_providers_controller = Blueprint('health-insurance-providers', 
 manager = HealthInsuranceProviderManager()
 
 @health_insurance_providers_controller.route('/health-insurance-providers/search', methods=['GET'])
-def find_all():
-    providers = manager.get_all_providers()
-    return jsonify(providers)
+def get_all_providers():
+    ans_registration_code = request.args.get('ans_registration_code', '').strip()
+    cnpj = request.args.get('cnpj', '').strip()
+    fantasyname = request.args.get('fantasyname', '').strip().upper()
+    page = int(request.args.get('page', 1))
+    limit = int(request.args.get('limit', 10))
+    
+    result = manager.get_all_providers(
+        ans_registration_code=ans_registration_code,
+        cnpj=cnpj,
+        fantasyname=fantasyname,
+        page=page,
+        limit=limit
+    )
+    
+    return jsonify(result)
 
 @health_insurance_providers_controller.route('/health-insurance-providers/<string:code>', methods=['GET'])
 def find_one(code):
